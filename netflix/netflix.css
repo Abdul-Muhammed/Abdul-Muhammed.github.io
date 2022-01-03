@@ -20,6 +20,7 @@ body {
     font-size: 8rem;
     color:#E50914 ;
     letter-spacing: 10px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 span {
@@ -60,5 +61,12 @@ text-shadow: 2px 2px 4px #000000;
   
   to {
     transform: rotate(1turn);
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    font-size: 6rem;
+    text-align: center;
   }
 }
