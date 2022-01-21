@@ -421,6 +421,7 @@ section .title::after {
   color: #fff;
 }
 
+
 /* Netflix Card in progress */
 
 .progress {
@@ -429,8 +430,7 @@ section .title::after {
     display: none;
     }
 
- 
-
+/* 
 .help:hover .progress {
     display: block;
     position: absolute;
@@ -440,9 +440,19 @@ section .title::after {
     color: #E50914;
     background-color: rgba(22, 224, 189, 0.7);
     font-family: 'Bebas Neue', cursive;;
+} */
+
+/* .netflix {
+  background-image: url("/assets/netflix.jpg");
+  background-position: center;
+ background-size: cover;
+} */
+
+.blurred:hover {
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
 }
-
-
+/* Netflix Card in progress */
 
 
 .owl-dots {
@@ -750,3 +760,4 @@ footer p span {
     height: 290px;
   }
 }
+
