@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -21,6 +25,30 @@ body {
     color:#E50914 ;
     letter-spacing: 10px;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.back-btn {
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  border-radius:0.12em;
+  margin: 1em;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.back-btn:hover {
+  /* color:#000000; */
+  background-color:#E50914;
+  opacity: 0.9;
+  border: 0.1em solid black;
+  border-radius: 0.5em;
 }
 
 span {
